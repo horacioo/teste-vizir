@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans');
+
+#App{
+    .fundoTopo{
+        background-color: #ffffff47;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 0;
+        left: 0;
+    }
+    header{
+        h2,h3{
+            margin: 10px 0 25px 0;
+        }
+    }
+    main{
+        h3{
+            margin: 15px 0 25px 0; 
+        }
+        color: white;
+        /* font-weight: bold; */
+        font-size: 26px;
+        line-height: 46px;
+
+        text-align: center;
+        border: 1px solid white;
+        padding: 70px 19% 70px 19%; 
+        background-color: #0056ec;
+        .esquerda{float:left;}
+    }
+    .calculadora{
+        padding: 65px 0px 96px 0;
+        margin: 3px;
+
+    }
+    .campos{ 
+        padding: 113px 0 0 0;
+        font-size: 13px;
+    }
+    .btn{margin: 21px 0 0 0;}
+
+
+
+    .topo{
+        position: relative;
+        background-color: #eceaea;
+        padding: 170px 6% 170px 6%;
+        color: #4eafa7;
+        background-image: url("../imagens/plano%20de%20telefonia.jpg");
+        /*background-attachment: fixed;*/
+        background-size: cover;
+        background-position-y: center;
+        h1{
+            color: #000000;
+            font-family: 'Alfa Slab One', cursive;
+            text-align: center;
+            text-shadow: 2px 4px 6px #4a4343;
+
+        }
+    }
+    .calculo{
+        h3{
+            line-height: 47px;
+            margin-bottom: 37px;
+        }
+        background-color: #d6d6d6;
+        padding: 90px 6% 90px 8%;
+        text-transform: capitalize;
+        span{
+            text-align: center;
+        }
+        .table{
+            margin: 20px 0 0 0;
+            font-size: 13px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+    p{display: block;}
+    *{
+        font-family: 'Open Sans', sans-serif;
+    }
+    h1,h2,h3{
+        font-family: 'Alfa Slab One', cursive;
+        text-align: center;
+        //text-shadow: 2px 4px 6px #a5a5a5;
+    }
+
+    #ResultadosRes{display: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    #App{
+        .campos{
+            padding: 45px 0 0 0;
+        }
+
+        main{
+            padding: 70px 4% 70px 4%;
+            text-align: justify;
+            font-size: 19px;
+            line-height: 32px;
+            div{
+                text-align: center;
+            }
+        }
+
+        .topo{
+            padding: 61px 2% 57px 2%;
+            h1{ font-size: 28px; }
+        }
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .esquerda{
+        width: 100%;
+    }
+
+    .table{
+        display: none;
+    }
+    #ResultadosRes{
+        display: block!important;
+        div{
+            .fim{
+                border: 0px solid red;
+                height: 6px;
+                margin: 0;
+                padding: 0;
+                background-color: #9a9a9a;
+            }
+            span{
+                border: 1px solid #b1b1b1;
+                display: block;
+                padding: 8px;
+                background-color: #e4e2e2;
+                margin-bottom: 1px;
+                text-transform: capitalize;
+                &:hover{
+                    background-color: #c5c5c5;
+                }
+            }
+        }
+    }
+}
