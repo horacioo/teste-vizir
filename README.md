@@ -31,8 +31,8 @@ Para executar o teste da aplicação, é necessário
     como não foi mencionado que o serviço poderia ser compartilhado, resolvi deixar esses dados em variáveis de forma a 
     tranca-los e garantir acesso apenas mediante dados específicos da requisição.
        
-        * buscaDDDs
-        * buscaPlanos                    
+   * buscaDDDs
+   * buscaPlanos                    
    
 * ## dados
   * busca.php  arquivo que traz os DDDs relacionados ao ddd selecionado antes(11=>16,17,18 por exemplo), o parametro de referencia e "ddd" com o valor do mesmo, exemplo: "http://localhost/vizir/dados/busca.php?ddd=11"
